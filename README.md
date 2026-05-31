@@ -1,6 +1,5 @@
 # AIN-3009 - MLOps Term Project
 ## Telco Customer Churn Prediction with MLflow
-### Omar Ali - 2104642
 ---
 
 ## Project Overview
@@ -158,13 +157,16 @@ The tuned Random Forest achieved the best overall performance and was promoted t
 ## 4. How to Run
 
 ```bash
-# 1. Install dependencies
+# 1. Clone the repository
+git clone https://github.com/Omarali26/mlops-churn-mlflow.git
+
+# 2. Install dependencies
 pip install mlflow optuna
 
-# 2. Run all objectives by (run main.py)
+# 3. Run all objectives by (run main.py)
 python main.py
 
-# 3. Open the MLflow server
+# 4. Open the MLflow server
 mlflow server --port 5000
 ```
 
